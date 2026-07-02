@@ -3,7 +3,7 @@ package day1;
 import java.util.HashMap;
 import java.util.Map;
 
-public class OddEvenCount3 {
+public class CountWordOccurance2 {
 public static void main(String[] args) {
 	String sentance="one two one three one one two four four";
 	String words[]=sentance.split(" "); //[one, two, three, one, two, four, four]
