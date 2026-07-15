@@ -46,17 +46,7 @@ public class PartitionByDemo {
 		System.out.println("There are " + hashmap3.get(true) + " months with more than 5 chars");
 		
 		
-		Map<Integer,List<String>> hashmap4=months.stream()
-		.collect(Collectors.groupingBy(n->n.length()));
-		System.out.println(hashmap4);
-		
-		Map<Integer,Long> hashmap5=months.stream()
-				.collect(Collectors.groupingBy(n->n.length(),Collectors.counting()));
-				System.out.println(hashmap5);
-				
-		//how many months have 8 chars
-		System.out.println("There are " + hashmap5.get(8) + " months having 8 chars");
-						
+								
 	}
 
 }
