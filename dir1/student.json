@@ -1,0 +1,29 @@
+[
+   {
+    "rno": 1,
+    "sname": "ALice",
+    "per": 59.5
+   },
+   
+   {
+    "rno": 2,
+    "sname": "Ben",
+    "per": 69.5
+   },
+   
+   {
+    "rno":3,
+    "sname": "Chris",
+    "per": 79.5
+   },
+    {
+    "rno":4,
+    "sname": "Vedant",
+    "per": 89.5
+   },
+    {
+    "rno":5,
+    "sname": "Akanksha",
+    "per": 99.5
+   }
+]
