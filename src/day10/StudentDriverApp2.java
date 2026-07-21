@@ -23,6 +23,22 @@ public class StudentDriverApp2 {
         catch(Exception e1) {}
         
         System.out.println(students);
+        System.out.println("*******" );
+        
+        for(Student s:students)
+        {
+        	if(s.getPer()>70)
+        	{
+        		System.out.println(s.getSname());
+        	}
+        }
+        
+        System.out.println("*******" );
+        
+        students.stream()
+        .filter(s->s.getPer()>70)
+        .map(s->s.getSname())
+        .forEach(System.out::println);
 
 }
 }
