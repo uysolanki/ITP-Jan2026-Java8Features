@@ -1,0 +1,12 @@
+{
+"rno":1,
+"sname":"Virat",
+"age" : 18,
+
+"marks" : {
+           "history":95,
+           "english":98,
+           "maths" :99
+          }
+}
+

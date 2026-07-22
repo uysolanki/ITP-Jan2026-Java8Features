@@ -1,0 +1,37 @@
+[
+{
+"rno":1,
+"sname":"Virat",
+"age" : 18,
+
+"marks" : {
+           "history":95,
+           "english":98,
+           "maths" :99
+          }
+},
+{
+"rno":2,
+"sname":"Rohit",
+"age" : 19,
+
+"marks" : {
+           "history":85,
+           "english":88,
+           "maths" :89
+          }
+},
+{
+"rno":3,
+"sname":"Rahul",
+"age" : 20,
+
+"marks" : {
+           "history":75,
+           "english":78,
+           "maths" :79
+          }
+}
+]
+
+
