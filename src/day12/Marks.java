@@ -1,4 +1,4 @@
-package day11;
+package day12;
 
 public class Marks {
 
@@ -34,6 +34,16 @@ public class Marks {
 	public String toString() {
 		return "Marks [history=" + history + ", english=" + english + ", maths=" + maths + "]";
 	}
-
+	
+	public int totalMarks()
+	{
+		return history+english+maths;
+	}
+	
+	
+	public double getPercentage()
+	{
+		return totalMarks()/3;
+	}
 	
 }
